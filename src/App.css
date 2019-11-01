@@ -1,5 +1,9 @@
+
 .App {
+  width: 80%;
+  height: 100vh;
   text-align: center;
+  margin: 20px auto;
 }
 
 .App-logo {
@@ -19,4 +23,32 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+
+
+.hamburger{
+  width: 30px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.hamburger svg{
+  fill: red;
+  height: 100%;
+  width: 100%
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.header_text{
+  color: #454545;
+  font-size: 16px;
+}
+.header_text--gray{
+  color: #bbbbbb;
 }
